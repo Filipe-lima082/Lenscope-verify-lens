@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Lenscope - O melhor para a sua visão</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container flex">
+            <div class="logo">
+                <a href="/">
+                    <img src="assets/logo.svg" alt="logo da Lanscope">
+                </a>
+            </div>
+
+            <div class="button-creditos">
+                <a href="https://github.com/Filipe-lima082" target="_blank">
+                    <img src="assets/icon-github.svg" alt="icone github branco" crossorigin="anonymous">
+                    <span>Créditos</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="receita container">
+        <h1 class="title">Lentes novas para seu óculos, <br> Sem sair de casa</h1>
+
+        <div class="container container-receita">
+            <div class="banner">
+                <img src="assets/banner.svg"
+                    alt="banner com uma planta, oculos, café e celular em cima de uma superficie plana representando a Lanscope">
+            </div>
+
+            <div class="receita-oftalmica">
+                <h2>Descubra a lente ideal para você</h2>
+                <p>Abaixo, informe a sua receita oftálmica</p>
+
+                <div class="container-medidas">
+                    <form class="form">
+                        <div class="esferico">
+                            <div class="esferico-esquerdo">
+                                <select id="esferico-e">
+                                    <option value="" disabled selected>Selecione</option>
+                                </select>
+                                <span>Esférico esquerdo</span>
+                            </div>
+
+                            <div class="esferico-direito">
+                                <select id="esferico-d">
+                                    <option value="" disabled selected>Selecione</option>
+                                </select>
+                                <span>Esférico Direito</span>
+                            </div>
+                        </div>
+
+                        <div class="cilintrico">
+                            <div class="cilintrico-esquerdo">
+                                <select id="cilintrico-e">
+                                    <option value="" disabled selected>Selecione</option>
+                                </select>
+                                <span>Cilintrico esquerdo</span>
+                            </div>
+
+                            <div class="cilintrico-direito">
+                                <select id="cilintrico-d">
+                                    <option value="" disabled selected>Selecione</option>
+                                </select>
+                                <span>Cilintrico Direito</span>
+                            </div>
+                        </div>
+
+                        <button class="button">Verificar Lente</button>
+
+                        <h3 class="lente"></h3>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

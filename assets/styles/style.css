@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #F1F1F1;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+    background: #fff;
+    padding: 2.4rem;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-creditos a {
+    display: flex;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 500;
+    gap: 10px;
+    align-items: center;
+    background: #277CEA;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.button-creditos a:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.03);
+}
+
+/* container receita */
+
+.receita {
+    margin-top: 3.2rem;
+    margin-bottom: 6.4rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.6rem;
+    color: #5E79B0;
+    padding-bottom: 3.2rem;
+}
+
+.container-receita {
+    width: min(70%, 960px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.4rem;
+    background: #fff;
+    box-shadow: 0px 4px 8px 0px #00000040;
+    border-radius: 0.3rem;
+}
+
+.receita-oftalmica h2 {
+    font-size: 2.4rem;
+    line-height: 1;
+    text-align: center;
+    color: #444687;
+    padding-bottom: 0.8rem;
+}
+
+.receita-oftalmica p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #979DBA;
+    margin-bottom: 32px;
+}
+
+.container-medidas form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.2rem;
+    padding: 0 1rem;
+}
+
+.form select {
+    width: 120px;
+    padding: 0.8rem;
+    outline: none;
+    background: none;
+    border: 1px solid #277CEA;
+    border-radius: 0.2rem;
+}
+
+.form select::appearance {
+    background: #153169;
+}
+
+
+.form select:focus {
+    border-color: #6a6b0f;
+}
+
+.esferico-esquerdo span,
+.esferico-direito span,
+.cilintrico-direito span,
+.cilintrico-esquerdo span {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    color: #153169;
+    font-weight: 500;
+}
+
+.esferico,
+.cilintrico {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BUTTON */
+
+.button {
+    width: 70%;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    background: #277CEA;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 16px;
+    box-shadow: 0px 4px 8px 0px #00000040;
+}
+
+
+.lente {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    color: #444687;
+}
